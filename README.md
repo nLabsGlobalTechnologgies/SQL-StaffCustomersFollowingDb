@@ -1,46 +1,54 @@
-# SQL-StaffCustomersFollowingDb
-# IEATestDb Veritabanı
+## Table Examples
 
-Bu depo, IEATestDb isimli SQL veritabanı hakkında bilgiler içerir. Veritabanının şema tasarımını, tablo yapılarını ve ilişkilerini gösterir.
+![Table Examples](vindowsScreen.PNG)
 
-## Nasıl Kullanılır
+# IEASalesTrackingDb SQL Database Setup
 
-1. Veritabanı Oluşturma
-   - SQL Sunucusunda yeni bir veritabanı oluşturmak için [IEATestDb.sql](SQL-StaffCustomersFollowingDb.sql
-) dosyasını kullanın.
+This repository contains SQL scripts for creating the **IEASalesTrackingDb** database and its associated tables, views, and stored procedures. The following sections provide a brief overview of the database structure and how to use the SQL scripts.
 
-2. Tablolar ve İlişkiler
-   - Bu veritabanı şu tabloları içerir:
-     - AddressTypes
-     - Categories
-     - Cities
-     - Countries
-     - CustomerAddresses
-     - Customers
-     - Districts
-     - Employees
-     - OrderDetails
-     - Orders
-     - Products
-     - Regions
-     - Roles
-     - Users
+## Database Overview
 
-3. İlişkiler
-   - Tablolar arasındaki ilişkiler, yabancı anahtar (foreign key) kısıtlamalarıyla tanımlanmıştır.
+![Database Overview](link_to_screenshot_image.png)
 
-4. SQL Sorguları
-   - Örnek SQL sorguları ve veri manipülasyon işlemleri yapmak için SQL Server Management Studio veya benzer bir araç kullanabilirsiniz.
+This screenshot provides an overview of the database structure, including tables, views, and stored procedures.
 
-## Tablo Örnekleri
+## Tables
 
-![Tablo Örnekleri](vindowsScreen.PNG)
+### Countries Table
 
-## İletişim
+The `Countries` table stores information about countries. You can execute the following SQL query to view all countries:
 
-Bu veritabanı hakkında herhangi bir sorunuz veya öneriniz varsa, lütfen iletişime geçmekten çekinmeyin.
+```sql
+SELECT * FROM Countries;
+AddressTypes Table
+The AddressTypes table contains information about address types.
 
----
+Other Tables
+In addition to the above, this database includes several other tables, such as Customers, Employees, Orders, Products, and more.
 
-**Not:** Bu veritabanı ve tablo yapıları varsayılan verilerle dolu değildir. Veri eklemek ve yönetmek için uygun sorguları kullanmanız gerekecektir.
+Views
+vwShowCountries View
+The vwShowCountries view allows you to retrieve data from the Countries table. You can execute the following SQL query to view countries through the view:
+SELECT * FROM vwShowCountries;
+
+Other Views
+This database includes various other views, such as vwShowCustomers, vwShowOrders, and more.
+
+Stored Procedures
+spCreateCountry
+The spCreateCountry stored procedure is used to insert a new country into the Countries table. You can use it as follows:
+-- Example of using spCreateCountry
+EXEC spCreateCountry 'US', 'United States', 'Description', '1', NULL;
+
+Other Stored Procedures
+In addition to spCreateCountry, there are other stored procedures available for managing the database.
+
+How to Use
+Clone or download this repository.
+Open SQL Server Management Studio.
+Connect to your SQL Server instance.
+Open and execute the SQL scripts in the order you need (e.g., create tables, views, stored procedures).
+Use the provided SQL queries to interact with the database.
+For any questions or issues, please feel free to reach out.
+
 
