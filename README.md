@@ -1,15 +1,10 @@
-## Table Examples
-
-![Table Examples](vindowsScreen.PNG)
-
 # IEASalesTrackingDb SQL Database Setup
 
 This repository contains SQL scripts for creating the **IEASalesTrackingDb** database and its associated tables, views, and stored procedures. The following sections provide a brief overview of the database structure and how to use the SQL scripts.
 
 ## Database Overview
 
-![Database Overview](link_to_screenshot_image.png)
-
+![Database Overview](vindowsScreen.PNG)
 This screenshot provides an overview of the database structure, including tables, views, and stored procedures.
 
 ## Tables
