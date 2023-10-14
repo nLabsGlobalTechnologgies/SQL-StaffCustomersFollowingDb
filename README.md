@@ -34,7 +34,7 @@ Bu depo, IEATestDb isimli SQL veritabanı hakkında bilgiler içerir. Veritaban�
 
 ## Tablo Örnekleri
 
-![Tablo Örnekleri](Ekran Alıntısı.PNG)
+![Tablo Örnekleri](vindowsScreen.PNG)
 
 ## İletişim
 
