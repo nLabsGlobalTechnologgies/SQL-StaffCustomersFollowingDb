@@ -6,7 +6,8 @@ Bu depo, IEATestDb isimli SQL veritabanı hakkında bilgiler içerir. Veritaban�
 ## Nasıl Kullanılır
 
 1. Veritabanı Oluşturma
-   - SQL Sunucusunda yeni bir veritabanı oluşturmak için [IEATestDb.sql](IEATestDb.sql) dosyasını kullanın.
+   - SQL Sunucusunda yeni bir veritabanı oluşturmak için [IEATestDb.sql](SQL-StaffCustomersFollowingDb.sql
+) dosyasını kullanın.
 
 2. Tablolar ve İlişkiler
    - Bu veritabanı şu tabloları içerir:
@@ -33,7 +34,7 @@ Bu depo, IEATestDb isimli SQL veritabanı hakkında bilgiler içerir. Veritaban�
 
 ## Tablo Örnekleri
 
-![Tablo Örnekleri](table_examples.png)
+![Tablo Örnekleri](Ekran Alıntısı.PNG)
 
 ## İletişim
 
